@@ -1,0 +1,21 @@
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-9">
+            <h3>Time {{videoTime}}</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div>
+                <h3>Clips</h3>
+                <textarea class="form-control" ng-model="data.textarea" rows="30"></textarea>
+                <hr/>
+                <button type="button" ng-click="validate()" class="btn btn-success">Validate</button>
+                <button type="button" class="btn btn-danger">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
